@@ -1,0 +1,9 @@
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Ajusta el padding */
+  width: 100%;
+  flex-shrink: 0; /* para evitar que el footer se reduzca */
+}

@@ -1,0 +1,48 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%; 
+}
+
+.bands-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    min-height: 100vh; 
+}
+
+.band-card {
+    background-color: rgba(240, 240, 240, 0.8); 
+    margin: 10px; /* Espacio entre tarjetas */
+    padding: 10px; /* Espacio interno */
+    border-radius: 8px; 
+    text-align: center; 
+    width: 150px; 
+    height: 150px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.band-card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.band-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 100px; /* Altura fija para asegurar que todas las imágenes tengan el mismo tamaño */
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+
+.band-name {
+    font-size: 1.1em; 
+    font-weight: bold; 
+    color: #fff;
+}

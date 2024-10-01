@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.about-container {
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.band {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.band h2 {
+    margin: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.band p {
+    margin: 10px 0;
+}
